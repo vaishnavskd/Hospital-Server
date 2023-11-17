@@ -1,0 +1,14 @@
+[
+  [
+    {
+      "name": "A",
+      "patient-count": "143",
+      "location": "TVM"
+    },
+    {
+      "name": "C",
+      "patient-count": "4",
+      "location": "KKD"
+    }
+  ]
+]
