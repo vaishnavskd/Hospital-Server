@@ -41,7 +41,7 @@ app.post('/add', (req, res) => {
 });
 
 // Update data by name
-app.put('/update', (req, res) => {
+app.put('/update/:name', (req, res) => {
     const name = req.params.name;
     const index = data.findIndex(item => item.name === name);
 
@@ -56,7 +56,7 @@ app.put('/update', (req, res) => {
 });
 
 // Delete data by name
-app.delete('/delete', (req, res) => {
+app.delete('/delete/:name', (req, res) => {
     const name = req.params.name;
     const index = data.findIndex(item => item.name === name);
 
